@@ -25,7 +25,8 @@
     "dev": "concurrently \"nodemon server.js\" \"cd client/ && yarn start\"",
     "client": "cd client && yarn start",
     "start": "node server.js",
-    "storybook": "cd client && yarn storybook"
+    "storybook": "cd client && yarn storybook",
+    "kill": "sudo kill $(lsof -t -i:8000)"
   },
   "repository": {
     "type": "git",

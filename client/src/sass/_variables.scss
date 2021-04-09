@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Work+Sans:wght@100;300;400;600&display=swap');
 /*
  *  Responsive
  */
@@ -102,50 +101,25 @@ $grey-20: #888888;
 $grey-10: #BABABA;
 $grey-00: #EFEFEF;
 
-// Primary
-$primary-80: $green-80;
-$primary-70: $green-70;
-$primary-60: $green-60;
-$primary-50: $green-50;
-$primary-40: $green-40; // primary
-$primary-30: $green-30;
-$primary-20: $green-20;
-$primary-10: $green-10;
-$primary-00: $green-00;
-
-// Secondary
-$secondary-60: $yellow-60;
-$secondary-50: $yellow-50;
-$secondary-40: $yellow-40; // secondary
-$secondary-30: $yellow-30;
-$secondary-20: $yellow-20;
-$secondary-10: $yellow-10;
-$secondary-00: $yellow-00;
-
-/*
- *  OTHER VARIABLES
- */
-$bg: #FFFFFF;
-$text-color: $grey-40;
-$alt-text-color: $bg;
-
 /*
  *  BOOTSTRAP OVERRIDES
  */
-$primary: #004288;
-$secondary: #787b7f;
+
+$primary: #197d67;
+$success: #197d67;
 $light: #f8f9fa;
 
 /*
  *  UI
  */
-$radius: 15px;
+$bg: #FFFFFF;
+$text-color: #000000;
 
-$font-primary: 'Work Sans', sans-serif;
-$font-secondary: 'Caveat', cursive;
+$radius: 3px;
+
+$font-primary: "Lato", sans-serif;
+$font-secondary: "Lato", sans-serif;
 
 $shadow-color: rgba(0,0,0,0.3);
 $shadow: 2px 2px 5px $shadow-color;
 $shadow-hover: 3px 3px 16px rgba(0,0,0,0.05);
-
-$transition-time: 0.2s;
