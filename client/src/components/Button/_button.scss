@@ -1,0 +1,22 @@
+@import "../../App.scss";
+
+.button {
+    background: $primary;
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: $radius;
+    color: $alt-text-color;
+    cursor: pointer;
+    transition: $transition-time;
+
+    &-secondary {
+        background: $secondary;
+    }
+    &-ghost {
+        background: transparent;
+        color: $text-color;
+        &:hover {
+            background: $grey-00;
+        }
+    }
+}
