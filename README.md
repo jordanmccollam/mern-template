@@ -1,6 +1,9 @@
 # MERN TEMPLATE
 --- 
 
+### Overview
+This is my personal template to start mern projects which will optimize as I learn. This template is set up to host the code in git and the live app in heroku. 
+
 ### Contains
 **Backend**
 - Server
@@ -21,6 +24,9 @@
 
 ### General Setup
 - add .env files to gitignore
+- `yarn dev` - runs server and client locally
+- `yarn client` - runs client only
+- `yarn start` - runs server
 
 ### Mongodb Setup
 - Create a mongodb database
