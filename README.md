@@ -23,7 +23,6 @@ This is my personal template to start mern projects which will optimize as I lea
 - Axios
 
 ### General Setup
-- add .env files to gitignore
 - `yarn dev` - runs server and client locally
 - `yarn client` - runs client only
 - `yarn start` - runs server
