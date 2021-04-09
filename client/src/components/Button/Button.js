@@ -34,7 +34,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   className: '',
-  children: 'Default Button',
+  children: 'New Entry',
   kind: 'primary'
 };
 

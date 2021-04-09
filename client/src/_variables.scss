@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Work+Sans:wght@100;300;400;600&display=swap');
 /*
  *  Responsive
  */
@@ -131,17 +132,17 @@ $alt-text-color: $bg;
 /*
  *  BOOTSTRAP OVERRIDES
  */
-$primary: $primary-40;
-$secondary: $secondary-40;
+$primary: #004288;
+$secondary: #787b7f;
 $light: #f8f9fa;
 
 /*
  *  UI
  */
-$radius: 3px;
+$radius: 15px;
 
-$font-primary: "Lato", sans-serif;
-$font-secondary: "Lato", sans-serif;
+$font-primary: 'Work Sans', sans-serif;
+$font-secondary: 'Caveat', cursive;
 
 $shadow-color: rgba(0,0,0,0.3);
 $shadow: 2px 2px 5px $shadow-color;
