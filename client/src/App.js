@@ -53,29 +53,36 @@ function App() {
 
   return (
     <div className="App">
+      <Container fluid>
+        <Row className="full border border-danger">
+          <Col>
+      
+            {user ? (
+              dbUser ? (
+                // LOGGED IN CONTENT
+                <>
+                  Logged In
+                </>
+                // ------------------
+              ) : (
+                <Container>
+                  <div className="text-center full d-flex flex-column justify-content-center align-items-center">
+                    <Spinner animation="border" variant="light" style={{height: 100, width: 100}} />
+                    <h5 className="text-light mt-4">Please wait...</h5>
+                  </div>
+                </Container>
+              )
+            ) : (
+              // LOGGED OUT CONTENT
+              <>
+                Logged Out
+              </>
+              // ------------------
+            )}
 
-      {user ? (
-        dbUser ? (
-          // LOGGED IN CONTENT
-          <>
-            
-          </>
-          // ------------------
-        ) : (
-          <Container>
-            <div className="text-center full d-flex flex-column justify-content-center align-items-center">
-              <Spinner animation="border" variant="light" style={{height: 100, width: 100}} />
-              <h5 className="text-light mt-4">Please wait...</h5>
-            </div>
-          </Container>
-        )
-      ) : (
-        // LOGGED OUT CONTENT
-        <>
-
-        </>
-        // ------------------
-      )}
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
